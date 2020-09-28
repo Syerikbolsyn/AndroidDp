@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+    >
+
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="match_parent"
+        android:layout_height="280sp"
+        app:layout_constraintHeight_percent="0.30"
+        android:background="@color/colorAccent"
+        android:text="@string/hello"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/text2"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_above="@id/Button41"
+        app:layout_constraintHeight_percent="0.10"
+        android:text="@string/equal"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/Text1"
+        app:layout_constraintBottom_toTopOf="@id/button1"
+        />
+
+    <Button
+        android:id="@+id/button1"
+
+        android:text="@string/С"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/Button2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text2"
+        app:layout_constraintRight_toLeftOf="@id/Button21"
+        />
+
+    <Button
+        android:id="@+id/Button2"
+
+        android:text="@string/_7"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/Button3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button1"
+        app:layout_constraintRight_toLeftOf="@id/Button22"
+        />
+
+    <Button
+        android:id="@+id/Button3"
+        android:text="@string/_4"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/Button4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Button2"
+        app:layout_constraintRight_toLeftOf="@id/Button23"
+        />
+
+    <Button
+        android:id="@+id/Button4"
+
+        android:text="@string/_1"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/Button5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Button3"
+        app:layout_constraintRight_toLeftOf="@id/Button24"
+        />
+
+    <Button
+        android:id="@+id/Button5"
+
+        android:text="@string/_0"
+        android:layout_height="75sp"
+        android:layout_width="202sp"
+        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Button4"
+        app:layout_constraintRight_toLeftOf="@id/Button35"
+
+        />
+
+    <Button
+        android:id="@+id/Button21"
+        android:text="@string/Back"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/Button22"
+        app:layout_constraintLeft_toRightOf="@id/button1"
+        app:layout_constraintTop_toBottomOf="@id/text2"
+        app:layout_constraintRight_toLeftOf="@id/Button31"
+        />
+
+    <Button
+        android:id="@+id/Button22"
+        android:layout_toEndOf="@+id/button1"
+        android:text="@string/_8"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/Button23"
+        app:layout_constraintLeft_toRightOf="@id/Button2"
+        app:layout_constraintTop_toBottomOf="@id/Button21"
+        app:layout_constraintRight_toLeftOf="@id/Button32"/>
+
+    <Button
+        android:id="@+id/Button23"
+
+        android:text="@string/_5"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/Button24"
+        app:layout_constraintLeft_toRightOf="@id/Button3"
+        app:layout_constraintTop_toBottomOf="@id/Button22"
+        app:layout_constraintRight_toLeftOf="@id/Button33"
+        />
+
+    <Button
+        android:id="@+id/Button24"
+        android:text="@string/_2"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/Button23"
+        app:layout_constraintLeft_toRightOf="@id/Button4"
+        app:layout_constraintTop_toBottomOf="@id/Button5"
+        app:layout_constraintRight_toLeftOf="@id/Button34"
+         />
+
+
+    <Button
+        android:id="@+id/Button31"
+        android:text="@string/porsentage"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/Button32"
+        app:layout_constraintLeft_toRightOf="@id/Button21"
+        app:layout_constraintRight_toLeftOf="@id/Button41"
+        app:layout_constraintTop_toBottomOf="@id/text2"
+        />
+
+    <Button
+        android:id="@+id/Button32"
+        android:text="@string/_9"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/Button33"
+        app:layout_constraintLeft_toRightOf="@id/Button22"
+        app:layout_constraintTop_toBottomOf="@id/Button31"
+        app:layout_constraintRight_toLeftOf="@id/Button42"
+         />
+
+    <Button
+        android:id="@+id/Button33"
+        android:text="@string/_6"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/Button34"
+        app:layout_constraintLeft_toRightOf="@id/Button23"
+        app:layout_constraintTop_toBottomOf="@id/Button32"
+        app:layout_constraintRight_toLeftOf="@id/Button43"
+         />
+
+    <Button
+        android:id="@+id/Button34"
+        android:text="@string/_3"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/Button35"
+        app:layout_constraintLeft_toRightOf="@id/Button24"
+        app:layout_constraintTop_toBottomOf="@id/Button33"
+        app:layout_constraintRight_toLeftOf="@id/Button44"
+         />
+
+    <Button
+        android:id="@+id/Button35"
+        android:text="@string/dote"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/Button5"
+        app:layout_constraintTop_toBottomOf="@id/Button34"
+        app:layout_constraintRight_toLeftOf="@id/Button45"
+
+         />
+
+    <Button
+        android:id="@+id/Button41"
+        android:text="@string/divi"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/Button42"
+        app:layout_constraintLeft_toRightOf="@id/Button31"
+        app:layout_constraintTop_toBottomOf="@id/text2"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
+        android:id="@+id/Button42"
+        android:text="@string/x"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/Button43"
+        app:layout_constraintLeft_toRightOf="@id/Button32"
+        app:layout_constraintTop_toBottomOf="@id/Button41"
+        app:layout_constraintRight_toRightOf="parent"
+         />
+
+    <Button
+        android:id="@+id/Button43"
+        android:text="@string/minus"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/Button44"
+    app:layout_constraintLeft_toRightOf="@id/Button33"
+        app:layout_constraintTop_toBottomOf="@id/Button42"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
+        android:id="@+id/Button44"
+        android:text="@string/plus"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/Button45"
+        app:layout_constraintLeft_toRightOf="@id/Button34"
+        app:layout_constraintTop_toBottomOf="@id/Button43"
+        app:layout_constraintRight_toRightOf="parent"
+         />
+
+    <Button
+        android:id="@+id/Button45"
+        android:text="@string/equal"
+        android:layout_height="75sp"
+        android:layout_width="101sp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/Button35"
+        app:layout_constraintTop_toBottomOf="@id/Button44"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
