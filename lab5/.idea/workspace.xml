@@ -1,26 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6007e359-2323-4acb-8b3e-7634e9a83cbf" name="Default Changelist" comment="" />
+    <list default="true" id="6007e359-2323-4acb-8b3e-7634e9a83cbf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab6/MyAppmodel/app/src/main/java/com/example/newapp/AppDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab6/MyAppmodel/app/src/main/java/com/example/newapp/MyAppCreat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab6/MyAppmodel/app/src/main/java/com/example/newapp/task.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../end/Новый текстовый документ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../end/Новый текстовый документ.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidManifest/app/src/main/res/layout/add_task_fragment_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidManifest/app/src/main/res/layout/add_task_fragment_fragment.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1l2ZNIkFi3Dc3DVZUud5aJthbvt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="C:/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\androidLabs\lab5\AndroidManifest\app\src\main\res\layout" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6007e359-2323-4acb-8b3e-7634e9a83cbf" name="Default Changelist" comment="" />
+      <created>1606797106126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606797106126</updated>
+    </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1606778982782">
+    <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1607369420421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606778982782" />
+    <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607369420421" />
+    <state x="1136" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1607369769142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1136" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607369769142" />
+    <state x="1096" y="242" key="run.anything.popup" timestamp="1606797159869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1096" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606797159869" />
   </component>
 </project>
